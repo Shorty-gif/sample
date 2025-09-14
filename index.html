@@ -1,25 +1,76 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
+<!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document -->
 
-    <script>
-      // JavaScript のコードはここ
-    </script>
-  </body>
+<html lang="en">
+<!-- The start of your HTML document. 'lang="en'" means the language is English. -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding to UTF-8, so all characters display correctly. -->
+
+    <title>My Unity Asset Publishing Profile</title>
+    <!-- The title shown in the browser tab. -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Links to an external CSS file for styling your page. -->
+</head>
+
+<body>
+    <header class="header">
+        <h1>Shorty 🎮</h1>
+        <nav class="nav">
+            <a href="#creations">Creations</a>
+            <a href="#unity">Unity Profile</a>
+            <a href="#background">Background</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="creations" class="section">
+            <h2>My Creations</h2>
+            <ul>
+                <li>
+                    <strong>First Person 3D Game basic movement control</strong>
+                    <br>
+                    <span style="color: #555;">A movement controller made for first person</span>
+                    <br>
+                    <figure style="margin:1em 0;">
+                        <img src="creation1.png" alt="Screenshot of First Person 3D Game movement control"
+                            style="max-width:400px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                        <figcaption style="font-size:0.95em; color:#888; margin-top:0.5em;">
+                            Thumbnail of my movement controller asset
+                        </figcaption>
+                    </figure>
+                </li>
+                <!-- List your Unity assets here. -->
+            </ul>
+        </section>
+
+        <hr style="margin:2em 0;">
+
+        <section id="unity" class="section">
+            <h2>Unity Profile</h2>
+            <p>
+                <a href="[Unity Profile URL]" target="_blank"
+                    style="font-weight:bold; color:#0073e6;">
+                    Visit my Unity Asset Store profile
+                </a>
+            </p>
+        </section>
+
+        <hr style="margin:2em 0;">
+
+        <section id="background" class="section">
+            <h2>Personal Background</h2>
+            <p>
+                I am a <span style="font-weight:bold;">Unity asset creator</span> passionate about game development and
+                sharing my tools with the community.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Shorty</p>
+    </footer>
+</body>
 </html>
